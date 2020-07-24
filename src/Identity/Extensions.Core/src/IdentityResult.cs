@@ -16,7 +16,7 @@ namespace Microsoft.AspNetCore.Identity
         private List<IdentityError> _errors = new List<IdentityError>();
         
         /// <summary>
-        /// Flag indicating whether if the operation succeeded or not.
+        /// Flag indicating whether the operation succeeded or not.
         /// </summary>
         /// <value>True if the operation succeeded, otherwise false.</value>
         public bool Succeeded { get; protected set; }
